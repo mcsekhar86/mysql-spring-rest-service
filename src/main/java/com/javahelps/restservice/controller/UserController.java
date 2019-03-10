@@ -18,7 +18,7 @@ import javassist.tools.web.BadHttpRequest;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:9000")
+@CrossOrigin(origins = "http://localhost:8080")
 @RequestMapping(path = "/users")
 public class UserController {
 
